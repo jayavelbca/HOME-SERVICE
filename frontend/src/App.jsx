@@ -66,7 +66,7 @@ function Home() {
         </p>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+919514127195"
           className="mt-6 inline-block rounded-full bg-black px-6 py-3 font-semibold text-white transition hover:bg-gray-800"
         >
           Call Us Now
