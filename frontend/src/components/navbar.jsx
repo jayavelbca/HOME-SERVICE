@@ -46,7 +46,7 @@ export default function Navbar() {
 
         {/* Contact Button */}
         <a
-          href="tel:+919876543210"
+          href="tel:+9514127195"
           className="hidden items-center gap-2 rounded-full bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-gray-800 md:flex"
         >
           <Phone size={16} />
@@ -79,7 +79,7 @@ export default function Navbar() {
           ))}
 
           <a
-            href="tel:+919876543210"
+            href="tel:+9514127195"
             className="mt-3 flex items-center justify-center gap-2 rounded-lg bg-black px-4 py-3 font-semibold text-white"
           >
             <Phone size={18} />

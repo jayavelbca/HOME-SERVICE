@@ -40,7 +40,7 @@ export default function Contact() {
     ].join("\n");
 
     // Replace with the real business WhatsApp number.
-    const businessNumber = "919876543210";
+    const businessNumber = "9514127195";
 
     const url = `https://wa.me/${businessNumber}?text=${encodeURIComponent(message)}`;
 
