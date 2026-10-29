@@ -61,7 +61,7 @@ const filteredBookings = bookings.filter((booking) => {
 
       try {
         const response = await fetch(
-          "http://localhost:5000/api/bookings",
+          "https://home-service-gju5.onrender.com/api/bookings",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -105,7 +105,7 @@ const filteredBookings = bookings.filter((booking) => {
 
     try {
       const response = await fetch(
-        `http://localhost:5000/api/bookings/${bookingId}/status`,
+        `https://home-service-gju5.onrender.com/api/bookings/${bookingId}/status`,
         {
           method: "PATCH",
           headers: {

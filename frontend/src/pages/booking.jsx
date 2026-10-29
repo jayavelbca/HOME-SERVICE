@@ -34,8 +34,7 @@ async function handleSubmit(e) {
   }
 
   try {
-    const response = await fetch("http://localhost:5000/api/bookings", {
-      method: "POST",
+     const response = await fetch("https://home-service-gju5.onrender.com/api/bookings", {      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },

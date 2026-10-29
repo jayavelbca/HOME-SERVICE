@@ -17,7 +17,7 @@ export default function AdminLogin() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/admin/login",
+        "https://home-service-gju5.onrender.com/api/admin/login",
         {
           method: "POST",
           headers: {
